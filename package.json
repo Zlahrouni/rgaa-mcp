@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zlahrouni/rgaa-mcp.git"
+    "url": "git+https://github.com/Zlahrouni/rgaa-mcp.git"
   },
   "homepage": "https://github.com/Zlahrouni/rgaa-mcp#readme",
   "bugs": {
@@ -12,7 +12,7 @@
   },
   "type": "module",
   "bin": {
-    "rgaa-mcp": "./dist/server.js"
+    "rgaa-mcp": "dist/server.js"
   },
   "scripts": {
     "build": "tsc",
