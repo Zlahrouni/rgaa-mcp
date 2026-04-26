@@ -1,0 +1,25 @@
+{
+  "name": "rgaa-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "rgaa-mcp": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test:audit": "npx playwright install chromium --with-deps && npx tsx test-audit.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "axe-core": "^4.11.3",
+    "playwright": "^1.59.1",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
